@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+theme: jekyll-theme-minimal
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Ideias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #005bb5;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .post {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border-bottom: 1px solid #ddd;
+        }
+        .post:last-child {
+            border-bottom: none;
+        }
+        .post h2 {
+            margin-top: 0;
+        }
+        .post p {
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #0073e6;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Blog de Ideias</h1>
+</header>
+
+<nav>
+    <a href="#">Início</a>
+    <a href="#">Sobre</a>
+    <a href="#">Contato</a>
+</nav>
+
+<div class="container">
+    <div class="post">
+        <h2>Primeira Ideia Brilhante</h2>
+        <p>Bem-vindo ao meu blog de ideias! Aqui, você encontrará reflexões, insights e pensamentos sobre diversos temas. Esta é a minha primeira postagem e estou muito animado para compartilhar minhas ideias com você. Fique à vontade para comentar e compartilhar suas próprias ideias!</p>
+    </div>
+    <div class="post">
+        <h2>Segunda Ideia Inovadora</h2>
+        <p>Neste post, vamos explorar a importância da criatividade no nosso dia a dia. A criatividade não é apenas para artistas e escritores; todos nós podemos nos beneficiar de pensar fora da caixa e encontrar novas soluções para velhos problemas.</p>
+    </div>
+    <div class="post">
+        <h2>Terceira Ideia Inspiradora</h2>
+        <p>Hoje, quero falar sobre a importância de ter um tempo para si mesmo. Em um mundo tão acelerado, é crucial reservar momentos para refletir, relaxar e recarregar as energias. Vamos discutir algumas técnicas para encontrar esse equilíbrio.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Blog de Ideias. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
